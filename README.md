@@ -11,7 +11,8 @@ asm2msxとは
 使い方：  
 　１）zasm64.exeでZ80アセンブラファイルをZ80機械語のEXEファイルへアセンブルする。  
 　２）asm2msx.rb（本変換ツール）で機械語のEXEファイル形式からMSXのBASICファイルBAS形式に変換する。  
-　３）msxterm_v0.2.1_win.zipから取り出したmsxterm.exeでMSXのBASICファイルをMSX0へ転送する。  
+　３）msxterm_v0.2.1_win.zipから取り出したmsxterm.exeでMSXのBASICファイルをMSX0へ転送（コピー＆  
+　　　ペースト）する。  
 　　（注意：ウイルス対策ソフトを使用していると動作できない場合があります）
 
 ・zasm64.exeとは、シンプルで軽量なZ80アセンブラZASMと、ZASMが動作するように変換してくれるツール  
