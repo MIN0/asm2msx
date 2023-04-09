@@ -15,7 +15,7 @@ asm2msxとは
 　　（注意：ウイルス対策ソフトを使用していると動作できない場合があります）
 
 ・zasm64.exeとは、シンプルで軽量なZ80アセンブラZASMと、ZASMが動作するように変換してくれるツール  
-　MS-DOS Playerで生成した実行ファイルです。詳細は以下を参照ください。  
+　MS-DOS Playerで生成した、Windows上で動作するZ80アセンブラです。詳細は以下を参照ください。  
 　　[アセンブラでソフトを開発しよう](https://www.tiny-yarou.com/asmdev/asmdev.html)  
   　　（注意：本アセンブラでは16進数を表すには”0xxxxH”で記述してください）  
 ・「msxterm とは PC から MSX0 に TCP/IP 接続するための専用ターミナルソフトです。  
