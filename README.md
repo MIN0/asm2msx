@@ -33,5 +33,6 @@ asm2msxとは
 　エラーが発生したときには以下のメッセージが表示されます。  
   
      "Usage: ruby asm2msx.rb <Z80 assembler file> <MSX-BASIC file>"  
-
-
+  
+　msxterm.exeでMSX0にMSX-BASICファイルが転送されると、自動的に1から6行にzasm64.exeで作成した機械語を  
+ 実行するためのBASIC文が挿入されます。必要のない場合はその行を削除してからお使いください。  
