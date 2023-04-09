@@ -37,4 +37,4 @@ asm2msxとは
      "Usage: ruby asm2msx.rb <Z80 assembler file> <MSX-BASIC file>"  
   
 　asm2msx.rbでMSX-BASICファイルが変換されると、自動的に行番号の1行目から6行目にzasm64.exeで作成した  
-　機械語を実行するためのBASIC文が挿入されます。必要のない場合はその行を削除してからお使いください。  
+　マシン語を実行するためのBASIC文が挿入されます。必要のない場合はその行を削除してからお使いください。  
