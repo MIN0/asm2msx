@@ -32,7 +32,7 @@ connected.
 > new  
 new  
 Ok  
-\> #load a.bas  
+> #load a.bas  
 1 clear 100,&hd000  
 2 k=&hd000:def usr=k  
 3 read x$:if x$="END" then 8  
@@ -45,7 +45,7 @@ Ok
 1010 DATA 2fcb2fc630cda20078e60fc630cda2003e0acda2003e  
 1020 DATA 0dcda200c300d0  
 1030 DATA END  
-\> run  
+> run  
 run  
 ```
 
