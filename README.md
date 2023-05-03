@@ -28,7 +28,7 @@ $> msxterm -f history.txt 192.168.1.105:2223
 history.txt  
 Connecting... 192.168.100.2:2223  
 connected.  
-\> new  
+ > new  
 new  
 Ok  
 \> #load a.bas  
