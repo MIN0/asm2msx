@@ -23,12 +23,13 @@ $>asm2msx.exe ＜Z80アセンブラファイル名：xxx.com＞ ＜MSX-BASICフ�
 $>msxterm -f history.txt 192.168.100.2:2223  
 　　この後、msxtermのコマンド（list, new, #load xxx.bas, run, #quit, etc）で無線でつながっているM5stack+MSX等に読み込み／実行する。  
   
+```
 $> msxterm -f history.txt 192.168.1.105:2223  
 192.168.1.105:2223  
 history.txt  
 Connecting... 192.168.100.2:2223  
 connected.  
- > new  
+\> new  
 new  
 Ok  
 \> #load a.bas  
@@ -46,7 +47,8 @@ Ok
 1030 DATA END  
 \> run  
 run  
-  
+```
+
   
 ・（注１）zasm64.exeとは、シンプルで軽量なZ80アセンブラZASMと、ZASMが動作するように変換してくれるツール  
 　MS-DOS Playerで生成した、Windows上で動作するZ80アセンブラです。詳細は以下を参照ください。  
@@ -63,7 +65,7 @@ run
 　asm2msx.exeはasm2msx.rsをWindowsマシン用に作成した実行ファイルです。
 　使い方はWindowsマシンで（確認はWindows10のみで実施）コマンドプロンプトで以下のように操作してください。  
   
-    \>asm2msx.exe ＜Z80アセンブラファイル名＞ ＜MSX-BASICファイル名＞　　
+    >asm2msx.exe ＜Z80アセンブラファイル名＞ ＜MSX-BASICファイル名＞　　
   
 　＜Z80アセンブラファイル＞にはMSXのCOMファイルやzasm64.exeで変換したファイル（例えばxxx.exe）を、＜MSX-BASICファイル＞  
 　にはmsxterm.exeで読み込むファイル（例えばxxx.bas）を記入します。  
