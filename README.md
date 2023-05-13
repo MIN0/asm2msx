@@ -142,7 +142,7 @@ Ok　　　　→実行を終了する
 　＜MSX-BASICファイル＞にはmsxterm.exeで読み込むファイル名（例えばxxx.bas）を記入します。  
 　asm2msx,exeの後にファイル名を忘れるなどした場合、エラーが発生して以下のメッセージが表示されます。  
   
-     "Usage: ruby asm2msx.rb <Z80 assembler file> <MSX-BASIC file>"  
+     "Usage: asm2msx.exe <source file name> <destination file name>"  
   
 　asm2msx.exeではCOM／EXEファイルからMSX-BASICファイルに変換します。その際に自動的に行番号の1行目から8行目にDATA文の内容をメモリ上に読み込んで実行する行が追加されます。必要のない場合はその行を削除してからお使いください。  
   
